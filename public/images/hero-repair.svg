@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none" role="img" aria-label="Fence repair with tools and replaced section">
+  <rect width="640" height="480" fill="#e8f0ea"/>
+  <rect x="60" y="280" width="520" height="16" rx="4" fill="#6b7686" opacity="0.35"/>
+  <path d="M100 300V160l40-20 40 20v140" stroke="#5c4033" stroke-width="14" stroke-linecap="round"/>
+  <path d="M220 300V140l40-30 40 30v160" stroke="#5c4033" stroke-width="14" stroke-linecap="round" opacity="0.4"/>
+  <path d="M340 300V150l40-15 40 15v150" stroke="#5c4033" stroke-width="14" stroke-linecap="round"/>
+  <rect x="118" y="200" width="64" height="12" fill="#a67c52"/>
+  <rect x="118" y="240" width="64" height="12" fill="#a67c52"/>
+  <rect x="358" y="190" width="64" height="12" fill="#c45c26"/>
+  <rect x="358" y="230" width="64" height="12" fill="#c45c26"/>
+  <rect x="230" y="180" width="80" height="120" rx="6" fill="#fff" stroke="#c45c26" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="500" cy="120" r="56" fill="#c45c26" opacity="0.12"/>
+  <path d="M480 110h40M500 90v40" stroke="#c45c26" stroke-width="8" stroke-linecap="round"/>
+  <rect x="72" y="56" width="148" height="44" rx="22" fill="#1b4332"/>
+  <text x="92" y="84" fill="#f8f5f0" font-family="system-ui,sans-serif" font-size="15" font-weight="600">Repair crew</text>
+</svg>

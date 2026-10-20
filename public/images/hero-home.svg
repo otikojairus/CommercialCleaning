@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <rect width="640" height="480" fill="#0f172a"/>
+  <rect x="48" y="80" width="544" height="280" rx="12" fill="#1e293b"/>
+  <rect x="80" y="120" width="200" height="120" rx="8" fill="#2563eb" opacity="0.25"/>
+  <rect x="300" y="120" width="260" height="48" rx="6" fill="#38bdf8" opacity="0.35"/>
+  <rect x="300" y="180" width="200" height="48" rx="6" fill="#38bdf8" opacity="0.2"/>
+  <circle cx="120" cy="360" r="40" fill="#0ea5e9" opacity="0.4"/>
+  <text x="72" y="56" fill="#f8fafc" font-family="system-ui" font-size="18" font-weight="700">Commercial spaces</text>
+</svg>

@@ -1,0 +1,13 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://elevatorrepair.com}
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://elevatorrepair.com}
+      NEXT_PUBLIC_PHONE_DISPLAY: ${NEXT_PUBLIC_PHONE_DISPLAY:-1-888-892-0457}
+      NEXT_PUBLIC_PHONE_E164: ${NEXT_PUBLIC_PHONE_E164:-+18888920457}
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <rect width="640" height="480" fill="#f1f5f9"/>
+  <rect x="60" y="180" width="80" height="200" fill="#94a3b8"/>
+  <rect x="160" y="120" width="100" height="260" fill="#64748b"/>
+  <rect x="280" y="200" width="90" height="180" fill="#94a3b8"/>
+  <rect x="390" y="90" width="120" height="290" fill="#475569"/>
+  <rect x="520" y="160" width="70" height="220" fill="#64748b"/>
+  <circle cx="320" cy="80" r="50" fill="#0ea5e9" opacity="0.35"/>
+  <rect x="48" y="400" width="220" height="44" rx="22" fill="#0f172a"/>
+  <text x="64" y="428" fill="#f8fafc" font-family="system-ui" font-size="14" font-weight="600">Your city crew</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <rect width="640" height="480" fill="#f5f3ff"/>
+  <rect y="300" width="640" height="180" fill="#7c3aed" opacity="0.15"/>
+  <path d="M40 320h560" stroke="#a78bfa" stroke-width="8"/>
+  <rect x="80" y="160" width="480" height="140" rx="8" fill="#8b5cf6" opacity="0.2"/>
+  <ellipse cx="320" cy="230" rx="180" ry="50" fill="#6d28d9" opacity="0.25"/>
+  <rect x="48" y="48" width="180" height="44" rx="22" fill="#7c3aed"/>
+  <text x="64" y="76" fill="#fff" font-family="system-ui" font-size="14" font-weight="600">Carpet extraction</text>
+</svg>
