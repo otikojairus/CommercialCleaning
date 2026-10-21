@@ -1,3 +1,5 @@
+import { siteOriginFromEnv, urlOnOrigin } from "./site-url";
+
 export type PageKind = "national" | "city";
 
 export type SeoPage = {
@@ -126,6 +128,5 @@ export function eyebrowFor(page: SeoPage) {
 }
 
 export function absoluteUrl(path = "") {
-  const root = process.env.NEXT_PUBLIC_SITE_URL || "https://canadacommercialcleaners.com";
-  return `${root.replace(/\/$/, "")}/${path.replace(/^\//, "")}`;
+  return urlOnOrigin(siteOriginFromEnv(), path);
 }

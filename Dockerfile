@@ -10,7 +10,7 @@ FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-ARG NEXT_PUBLIC_SITE_URL=https://elevatorrepair.com
+ARG NEXT_PUBLIC_SITE_URL=https://canadacommercialcleaners.com
 ARG NEXT_PUBLIC_PHONE_DISPLAY=1-888-892-0457
 ARG NEXT_PUBLIC_PHONE_E164=+18888920457
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
