@@ -19,5 +19,5 @@ Source file path is set in `scripts/generate-from-xlsx.py` (default: Downloads p
 
 ## Environment
 
-- `NEXT_PUBLIC_SITE_URL` — default `https://commercialcleaning.com`
+- `NEXT_PUBLIC_SITE_URL` — default `https://canadacommercialcleaners.com`
 - `NEXT_PUBLIC_PHONE_DISPLAY` / `NEXT_PUBLIC_PHONE_E164`

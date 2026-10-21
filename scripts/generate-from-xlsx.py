@@ -159,7 +159,7 @@ export function eyebrowFor(page: SeoPage) {{
 }}
 
 export function absoluteUrl(path = "") {{
-  const root = process.env.NEXT_PUBLIC_SITE_URL || "https://commercialcleaning.com";
+  const root = process.env.NEXT_PUBLIC_SITE_URL || "https://canadacommercialcleaners.com";
   return `${{root.replace(/\\/$/, "")}}/${{path.replace(/^\\//, "")}}`;
 }}
 '''
