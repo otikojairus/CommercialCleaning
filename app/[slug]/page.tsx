@@ -5,6 +5,7 @@ import { PageHero } from "@/components/page-hero";
 import { ServicePhoto } from "@/components/service-photo";
 import { JsonLd } from "@/components/visuals";
 import { heroVisualFor } from "@/lib/hero-visual";
+import { serviceImageFor, servicePhotoAlt } from "@/lib/service-images";
 import {
   PILLAR,
   faqHeadingFor,
@@ -109,6 +110,8 @@ export default async function SeoPage({ params }: Props) {
         secondaryHref={isPillar ? "/commercial-office-cleaning-services" : `/${PILLAR}`}
         secondaryLabel={isPillar ? "Office cleans" : "Back to overview"}
         visual={heroVisualFor(page)}
+        imageSrc={serviceImageFor(page)}
+        imageAlt={servicePhotoAlt(page)}
       />
 
       <ServicePhoto page={page} variant="banner" priority />

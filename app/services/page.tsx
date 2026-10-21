@@ -43,7 +43,7 @@ export default function ServicesPage() {
           {NATIONAL_PAGES.map((page) => (
             <li key={page.slug}>
               <Link href={`/${page.slug}`} className="topic-list-link">
-                <ServicePhoto page={page} />
+                <ServicePhoto page={page} thumbLayout="compact" />
                 <span className="topic-list-body">
                   <span className="topic-list-title">{pageLinkLabel(page)}</span>
                   <span className="topic-list-desc">{blurbFor(page)}</span>

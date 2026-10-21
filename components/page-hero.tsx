@@ -13,6 +13,9 @@ type PageHeroProps = {
   secondaryLabel?: string;
   variant?: "home" | "page";
   visual?: HeroVisual;
+  /** When set, overrides the default image for this visual (service-specific photo). */
+  imageSrc?: string;
+  imageAlt?: string;
 };
 
 export function PageHero({
@@ -24,8 +27,11 @@ export function PageHero({
   secondaryLabel,
   variant = "page",
   visual = "home",
+  imageSrc: imageSrcProp,
+  imageAlt: imageAltProp,
 }: PageHeroProps) {
-  const imageSrc = heroImageSrc(visual);
+  const imageSrc = imageSrcProp ?? heroImageSrc(visual);
+  const imageAlt = imageAltProp ?? heroPhotoAlt(visual);
   const caption = heroVisualCaption(visual);
 
   return (
@@ -51,7 +57,7 @@ export function PageHero({
           <div className="welcome-art-ring">
             <Image
               src={imageSrc}
-              alt={heroPhotoAlt(visual)}
+              alt={imageAlt}
               width={1200}
               height={900}
               priority={variant === "home"}

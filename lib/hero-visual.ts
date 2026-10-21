@@ -18,6 +18,7 @@ export function heroVisualFor(page?: SeoPage): HeroVisual {
   if (page.slug.includes("carpet")) return "carpet";
   if (page.slug.includes("floor")) return "floor";
   if (page.slug.includes("office") || page.slug.includes("building")) return "office";
+  if (page.slug.includes("professional")) return "home";
   if (page.slug === PILLAR_SLUG) return "national";
   return "national";
 }

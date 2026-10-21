@@ -90,7 +90,7 @@ export default function HomePage() {
           <p className="section-sub">Tap a topic, then call if you would rather talk it through.</p>
           <div className="pick-grid">
             <Link href={`/${PILLAR_SLUG}`} className="pick-card pick-card-featured">
-              <ServicePhoto page={pillar} />
+              <ServicePhoto page={pillar} thumbLayout="featured" priority />
               <span className="pick-card-label">Most calls start here</span>
               <span className="pick-card-title">General commercial cleaning</span>
               <p>{blurbFor(pillar)}</p>
